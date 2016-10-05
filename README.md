@@ -15,7 +15,7 @@ Udacity recommends our students install [Anaconda](https://www.continuum.io/down
 
 ### Code
 
-Template code is provided in the notebook `student_intervention.ipynb` notebook file. While some code has already been implemented to get you started, you will need to implement additional functionality when requested to successfully complete the project.
+Completed code can be found in `student_intervention.ipynb` notebook file. 
 
 ### Run
 
