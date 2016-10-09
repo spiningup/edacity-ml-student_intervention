@@ -2116,7 +2116,10 @@ Made predictions in 0.0013 seconds.
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><strong>Answer: </strong> Support vector machine finds the best way to divide data points into two parts (passed "yes" and "no" in this case), making sure that these two parts are as further as possible while keeping mis-classification rate (data points which are labeled "yes" but assigned to "no" part, and data points which are labeled "no" but assigned to "yes" part) as low as possible. In order to make prediction, we simply check which of those two parts the data point belongs to and assign the label of that part to the data point.</p>
+<p><strong>Answer: </strong></p>
+<p>Support vector machine finds the best way to divide data points into two parts (passed "yes" and "no" in this case, corresponding to red and blue data points in the following figure), making sure that these two parts are as further as possible while keeping mis-classification rate (data points which are labeled "yes" but assigned to "no" part, and data points which are labeled "no" but assigned to "yes" part) as low as possible. In order to make prediction, we simply check which of those two parts the data point belongs to and assign the label of that part to the data point. <img src="svm-basic.gif"></p>
+<p><b>What if data points are not separable by a line or a plane</b></p>
+<p>If the data points can't be divided by a line, as shown in the right side of the following figure, what we can do is to throw some of the points in the air so they are now separable as shown in the left side of the following figure.  <img src="data_2d_to_3d_hyperplane.png"></p>
 
 </div>
 </div>
